@@ -1,32 +1,125 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-  <title>Mi Primera Página</title>
-  </head>
-<body>
-  <header style="background-color:aquamarine;">
-   <h2>Hola soy una cabecera </h2>
-  </header>
-  <nav style="background-color:aquamarine;">
-    <h3> hola soy un menu de navegacion</h3>
-  </nav>
-  <section style="background-color:blueviolet;">
-    <h3>hola soy una seccion</h3>
-    <article style="background-color:chartreuse;">
-     <h3>hola soy un articulo</h3>
-    </article>
-    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. In facere sit quia iste quae nostrum dolore, aspernatur delectus repudiandae officia, vero soluta obcaecati minus hic pariatur! Ipsam vitae doloribus repudiandae!</p>
-  </section>
-  <aside style="background-color:crimson;">
-    <h3> hola soy una barra lateral</h3>
-  </aside>
-  </body>
-<footer style="background-color:darkorange;">
-    <h4> hecho 2022</h4>
-  <address style="background-color:darkolivegreen;"> Direccion  Carrera 17b No 24-98 Las nieves</address>
-  </footer>
-  <div style="background-color: cornflowerblue; ">
-    <h1>holo soy contenedor generico llamdo div</h1>
-    <span style="background-color:rgb(220, 20, 97)">hola soy un contnedor de bloque </span>
-  </div>
+    <title> PAMECSOFT</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1,minimum-scale=1">
+    <link rel="stylesheet" href="./css/estilos.css">
+    
+    <style>
+        body{
+            background: url(./img/FONDO.png);
+        }
+        .container{
+            width:965px;
+            background:white;
+            margin:auto;
+            border-radius:25px
+        }
+        .top{
+            margin-top:30px
+        }
+        .menu{
+            float:right;
+        }
+        .menu li{
+            display:inline-block;
+        }
+        .menu a{
+            color:black;
+            text-decoration: none;
+            padding:20PX
+        }
+        .menu a:hover{
+            background: #B52025;
+        }
+        .col{
+            width: 265PX;
+            display:inline-block;
+            vertical-align: top;
+            text-align: justify;
+            padding:20px
+        }
+        .col h2{
+            color: #B52025;
+        }
+        .row{
+            text-align: center
+        }
+        .footer{
+            overflow: hidden;
+        }
+        .footer a{
+            color:black;
+            text-decoration: none;
+        }
+        .footer spam{
+            float:left;
+            margin-top:10px;
+            margin-left:30px;
+        }
+    </style>
+</head>
+<BODY>
+    <DIV class="container">
+        <div class="header">
+            <img src="./img/LOGO PAMECSOFT.jpg" height="80px" width="150" alt="">
+            <ul class="menu top">
+                <li><a href="#">INICIO</a></li>
+                <li><a href="./paginas/nosotros.html">NOSOTROS</a></li>
+                <li><a href="#">PORTAFOLIO</a></li>
+                <li><a href="#">CONTACTENOS</a></li>
+            </ul>
+        </div>
+        <div class="slider">
+          <ul>
+            <li><img src="./img/slider1.png"></li>
+            <li><img src="./img/slider2.png"></li>
+            <li><img src="./img/slider3.png"></li>
+            <li><img src="./img/slider4.png"></li>
+          </ul>  
+        </div>
+        <!-- <IMG src="./img/ASESORIA.png" height="280" width="965" ALT=""> -->
+        <div class="row">
+            <div class="col">
+                <h2>NUESTRA EMPRESA</h2>
+                <img src="./img/imagen1.png" alt="">
+                <p>
+                    <H3>PAMECSOFT S.A.S, es una empresa con orígenes en la costa norte de Colombia,, año 2.011,  especializada en el desarrollo, integración e implementación de soluciones tecnológicas a la medida de las necesidades de su organización.</H3>
+                </p>
+            </div>
+            <div class="col">
+                <h2>VISION</h2>
+                <img src="./img/facturacion.png" alt="">
+                <p>
+                    <H3>
+                        Llegar a ser la opción de confianza de nuestros clientes a través del establecimiento de relaciones de largo plazo y mutuo beneficio, teniendo como premisa la satisfacción de sus expectativas cuando eligen a PAMECSOFT S.A.S, como su aliado en estratégico en Tecnologías de Información
+                    </H3>
+                </p>
+            </div>
+            <div class="col">
+                <h2>MISION</h2>
+                <img src="./img/poroceso administrativo.png" alt="">
+                <p>
+                    <H3>
+                        Brindar a nuestros clientes soluciones de TI alineadas con su estrategia de negocio, que les permitan alcanzar altos niveles de productividad y competitividad, a través de la incorporación de soluciones innovadoras de TI en los procesos críticos de su cadena de valor.
+                    </H3>
+                </p>
+            </div>
+        </div>
+        <!--<div class="footer">
+            <span><a href="#">Enlace 1</a> | <a href="#">Enlace 2</a></span>
+            <ul class="menu">
+                <li><a href="#">ENLACE 1</a></li>
+                <li><a href="#">ENLACE 2</a></li>
+                <li><a href="#">ENLACE 3</a></li>
+                <li><a href="#">ENLACE 4</a></li>
+            </ul>
+        </div> -->
+        <div class="ubicacion">
+            <h2> Contacto.</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.109925932784!2d-74.78206048473898!3d10.955068358865338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef5cd555282da6b%3A0xb76d2a655c8a62b!2sCra.%2017b%20%2324-98%2C%20Barranquilla%2C%20Atl%C3%A1ntico!5e0!3m2!1ses!2sco!4v1665057991032!5m2!1ses!2sco" width="965" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </DIV>
+    </BODY>
 </html>
