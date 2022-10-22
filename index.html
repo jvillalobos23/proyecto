@@ -1,125 +1,181 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title> PAMECSOFT</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1,minimum-scale=1">
-    <link rel="stylesheet" href="./css/estilos.css">
-    
-    <style>
-        body{
-            background: url(./img/FONDO.png);
-        }
-        .container{
-            width:965px;
-            background:white;
-            margin:auto;
-            border-radius:25px
-        }
-        .top{
-            margin-top:30px
-        }
-        .menu{
-            float:right;
-        }
-        .menu li{
-            display:inline-block;
-        }
-        .menu a{
-            color:black;
-            text-decoration: none;
-            padding:20PX
-        }
-        .menu a:hover{
-            background: #B52025;
-        }
-        .col{
-            width: 265PX;
-            display:inline-block;
-            vertical-align: top;
-            text-align: justify;
-            padding:20px
-        }
-        .col h2{
-            color: #B52025;
-        }
-        .row{
-            text-align: center
-        }
-        .footer{
-            overflow: hidden;
-        }
-        .footer a{
-            color:black;
-            text-decoration: none;
-        }
-        .footer spam{
-            float:left;
-            margin-top:10px;
-            margin-left:30px;
-        }
-    </style>
-</head>
-<BODY>
-    <DIV class="container">
-        <div class="header">
-            <img src="./img/LOGO PAMECSOFT.jpg" height="80px" width="150" alt="">
-            <ul class="menu top">
-                <li><a href="#">INICIO</a></li>
-                <li><a href="./paginas/nosotros.html">NOSOTROS</a></li>
-                <li><a href="#">PORTAFOLIO</a></li>
-                <li><a href="#">CONTACTENOS</a></li>
-            </ul>
-        </div>
-        <div class="slider">
-          <ul>
-            <li><img src="./img/slider1.png"></li>
-            <li><img src="./img/slider2.png"></li>
-            <li><img src="./img/slider3.png"></li>
-            <li><img src="./img/slider4.png"></li>
-          </ul>  
-        </div>
-        <!-- <IMG src="./img/ASESORIA.png" height="280" width="965" ALT=""> -->
-        <div class="row">
-            <div class="col">
-                <h2>NUESTRA EMPRESA</h2>
-                <img src="./img/imagen1.png" alt="">
-                <p>
-                    <H3>PAMECSOFT S.A.S, es una empresa con orígenes en la costa norte de Colombia,, año 2.011,  especializada en el desarrollo, integración e implementación de soluciones tecnológicas a la medida de las necesidades de su organización.</H3>
-                </p>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAMECSOFT SAS</title>
+    <link rel="shortcut icon" href="./lavicon/favicon.ico">
+    <link rel="stylesheet" href="./styles/estilos.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesshet" href="./bootstrap/bootstrap.min.css">
+    <script type ="text/javascript" scr="./js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    </head>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html">Inicio</a>
+            <a href="./paginas/acerca.html">Acerca de</a>
+            <a href="./documentos/portafolio pamecsoft.pdf">Portafolio</a>
+            <a href="./paginas/consultoria.html">Servicio</a>
+            <a href="./paginas/formulario.html">Contacto</a>    
+        </nav>
+        <section class="textos-header">
+            <div class="logocabaza">
+                <img src="./img/LOGO_PAMECSOFT.png " width=350px alt="">
             </div>
-            <div class="col">
-                <h2>VISION</h2>
-                <img src="./img/facturacion.png" alt="">
-                <p>
-                    <H3>
-                        Llegar a ser la opción de confianza de nuestros clientes a través del establecimiento de relaciones de largo plazo y mutuo beneficio, teniendo como premisa la satisfacción de sus expectativas cuando eligen a PAMECSOFT S.A.S, como su aliado en estratégico en Tecnologías de Información
-                    </H3>
-                </p>
+            <h1>Su aliado estratégico en tecnología de la Información.</h1>
+            <h2>Somos la Mejor Opcion</h2>
+        </section>
+        <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(241, 239, 144);"></path></svg>
+        </div>
+    </header>
+    <main>
+        <section class="contenedor sobre nosotros">
+            <h2 class="titulo">Nuestros productos</h2>
+            <div class="contenedor-sobre-nosotros">
+                <img src="./img/slider4.png" alt="" class="imagen-about-us">
+                <div class="contenido-textos">
+                    <h3><span>1</span><a href="http://190.242.58.244:4664/CITOLOGIA/">CITOWEB</a></h3>
+                    <p>Sitemas integral citopatolico CITOWEB, donde su entidad podrar realizar todas las lobores admitrativas y asistenciales, sistema alojado en servidores externos, ofreciendo disponibilidad del recurso 7*24 horas</p>
+                    <h3><span>2</span><a href="http://190.242.58.244:4664/SITIO_certso/">CERTSO</a></h3>
+                    <p>Software Médico nos esforzamos creando un software adecuado para los profesionales en salud ocupacional, ahora bien, con software médico podrás personalizar el sistema para que sea fácil de usar y puedas acceder desde cualquier dispositivo con conexión a internet, teniendo presente que toda la información está totalmente segura.</p>
+                </div>
             </div>
-            <div class="col">
-                <h2>MISION</h2>
-                <img src="./img/poroceso administrativo.png" alt="">
-                <p>
-                    <H3>
-                        Brindar a nuestros clientes soluciones de TI alineadas con su estrategia de negocio, que les permitan alcanzar altos niveles de productividad y competitividad, a través de la incorporación de soluciones innovadoras de TI en los procesos críticos de su cadena de valor.
-                    </H3>
-                </p>
+        </section>
+        <section class="portafolio">
+            <div class="contenedor">
+                <h2 class="titulo">Nuestros Valores Corporativos</h2>
+                <div class="galeria-port">
+                    <div class="imagen-port">
+                         <img src="./img/slider1.png" alt="" /></a>
+                         <div class="hover-galeria">
+                           <img src="./img/icons8-exactitud-100.png" alt="">
+                           <a href="./paginas/consultoria.html"> Grupo Interdisciplinario</a>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="./img/slider2.png">
+                        <div class="hover-galeria">
+                           <img src="./img/icons8-exactitud-100.png" alt="">
+                           <p>Motivacion profesional</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="./img/slider3.png">
+                        <div class="hover-galeria">
+                           <img src="./img/icons8-exactitud-100.png" alt="">
+                           <p>Etica y Confidencialidad</p>
+                        </div>
+                    </div>
+                    <div class="imagen-port">
+                        <img src="./img/facturacion.png">
+                        <div class="hover-galeria">
+                           <img src="./img/icons8-exactitud-100.png" alt="">
+                           <p>Recurso Humani Idoneo</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <div class="clientes-contenedor">
+         <H2 class="titulo">Que dicen Nuestros Clientes</H2>
+            <div class="cards">
+                <div class="card">
+                    <img src="./img/cliente labcuriel.png" alt="">
+                      <div class="contenido-texto-card">
+                        <h4> Laboratorio Clinico Isabel Curiel</h4>
+                        <p>Prestamos servicios de laboratorio clínico en los niveles I y II de complejidad en las áreas de Hematología, Química Sanguínea, Inmunología, Coproanalisis, Urianálisis y Microbiologías. Cuenta con un Sistema de Referencia y Contrarreferencia que le permite ofrecer el servicio de exámenes clasificados en el III y IV nivel de atención.</p>
+                      </div>
+                </div>
+                <div class="card">
+                    <img src="./img/cliente hansen.png" alt="">
+                      <div class="contenido-texto-card">
+                        <h4> Laboratorio CLinico Hansen</h4>
+                        <p> Contamos con una profesional independiente
+                            Dr. Elizabeth Hernández Sáenz. Bacterióloga inscrita en el registro especial de prestadores de salud con el código 0800100730 que garantiza su identidad para realizar el ejersicio de su pretención en el territorio nacional</p>
+                      </div>
+                </div>
             </div>
         </div>
-        <!--<div class="footer">
-            <span><a href="#">Enlace 1</a> | <a href="#">Enlace 2</a></span>
-            <ul class="menu">
-                <li><a href="#">ENLACE 1</a></li>
-                <li><a href="#">ENLACE 2</a></li>
-                <li><a href="#">ENLACE 3</a></li>
-                <li><a href="#">ENLACE 4</a></li>
-            </ul>
-        </div> -->
+        </section>
+        <section class="about-services">
+            <div class="contenedor" >
+                <h2 class="titulo"> Nuestros Servicios</h2>
+                <div class="servicio-cont">
+                    <div class="servicio-ind">
+                        <img src="./img/nuestroservicio aseoria.png" alt="">
+                        <h3>Consultoria</h3>
+                        <p>Los Servicios Empresariales de Pamecsoft S.A.S,  son una parte integral de su estrategia de negocio. Desde la planificación y diseño hasta la implementación de las soluciones y el soporte continuo, le proporcionamos la experiencia necesaria para asegurar que cada elemento de su solución funcione en armonía para lograr sus objetivos y adaptarse a sus necesidades.</p>
+                        <a href="./paginas/consultoria.html">Leer Mas</a>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="./img/nuestroservicio capacitacion.png" alt="">
+                        <h3>Desarrollo de software</h3>
+                        <p>En múltiples ocasiones las empresas tienen sus propias necesidades y lógicas del negocio específicas y no estandarizadas. Decidir si utilizar un software estandarizado o un desarrollo de software a medida es una tarea compleja que va desde estudiar.</p>
+                        <a href="./paginas/desarrollo_software.html">Leer Mas</a>
+                    </div>
+                    <div class="servicio-ind">
+                        <img src="./img/nuestroservicio teconologia.png" alt="">
+                        <h3>Nuevas Tecnologias</h3>
+                        <p>Confíe en Pamecsoft, a la hora de implementar sistemas de captura de datos, elija la empresa con más experiencia en servicios profesionales en el mercado de la identificación automática y captura de datos.</p>
+                        <a href="./paginas/nueva_tecnologias.html">Leer Mas</a>  
+                    </div>
+                </div>
+            </div>
+        </section>
         <div class="ubicacion">
-            <h2> Contacto.</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.109925932784!2d-74.78206048473898!3d10.955068358865338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef5cd555282da6b%3A0xb76d2a655c8a62b!2sCra.%2017b%20%2324-98%2C%20Barranquilla%2C%20Atl%C3%A1ntico!5e0!3m2!1ses!2sco!4v1665057991032!5m2!1ses!2sco" width="965" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h2 class="titulo"> Ubicacion de Nuestra Empresa.</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.109925932784!2d-74.78206048473898!3d10.955068358865338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef5cd555282da6b%3A0xb76d2a655c8a62b!2sCra.%2017b%20%2324-98%2C%20Barranquilla%2C%20Atl%C3%A1ntico!5e0!3m2!1ses!2sco!4v1665057991032!5m2!1ses!2sco" width="2000" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-    </DIV>
-    </BODY>
+    
+    </main>
+    <footer>
+        <div class="container__footer">
+            <div class="box__footer">
+                <div class="logo">
+                    <img src="./img/LOGO_PAMECSOFT.png" alt="">
+                </div>
+                <div class="terms">
+                    <p>
+                        Nuestro objetivo principal, es brindarle a su compañía las herramientas
+                        necesarias, que se ajusten a sus necesidades y a su presupuesto, para 
+                        contribuir al excelente desempeño de su organización.
+                    </p>
+                </div>
+            </div>
+            <div class="box__footer">
+                <h2>Servicios</h2>
+                <a href="./paginas/consultoria.html">Asesorias en salud</a>
+                <a href="./paginas/asesorias_tecnologia.html">Asesorias en tecnologia</a>
+                <a href="./paginas/facturacion.html">Facturacion</a>
+                <a href="./paginas/desarrollo_software.html">Desarrollo de Aplicaciones</a>
+            </div>
+            <div class="box__footer">
+                <h2>Lineamientos Estrategicos</h2>
+                <a href="./paginas/vision.html">vision</a>
+                <a href="./paginas/mision.html">Mision</a>
+                <a href="./paginas/valores_corporativos.html">Valores corporativos</a>
+                <a href="./paginas/politicas_calidad.html">Politicas de CalidAD</a>
+            </div>
+            <div class="box__footer">
+                <h2>Redes Sociales</h2>
+                <a href="https://es-la.facebook.com/"><i class="fa-brands fa-facebook"></i>> Facebook</a>
+                <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i> Twitter</a>
+                <a href="https://www.linkedin.com/signup"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
+                <a href="https://www.instagram.com/accounts/emailsignup/"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            </div>
+        </div>
+        <div class="box__copyrigth">
+            <hr>
+            <p> Todos los derchos reservados 2022
+            <h2 class="titulo-final">&copy; Pamecsoft SAS</h2>
+            </p>
+        </div>
+        
+    </footer>
+    
+</body>
 </html>
